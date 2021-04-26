@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./build/stories.css">
+</head>
+<body class="theme_dark">
+    <script type="text/javascript" src="./data.js"></script>
+    <script type="text/javascript" src="./build/stories.js"></script>
+    <script>
+        const body = document.querySelector('body');
+        body.innerHTML = window.renderTemplate(myData[8].alias, myData[8]);
+    </script>
+</body>
+</html>
